@@ -16,7 +16,16 @@ C++ GitHub Actions Hello World
 
 ### Create Workflow
 
-1. Open Actions tab.
+1. Open `Actions` tab.
+1. Click `New workflow`.
+1. Click `Configure` for `C/C++ with Make` under `Suggested for this repository`.
+1. Edit workflow.
+   - remove `configure` / `make distcheck` step.
+   - Replace `make check` with `make run`.
+1. Commit adn PullRequest.
+   - Click `Commit Changes..` and a pop-up will appear.
+   - Select `Create a new branch for this commit and start a pull request`.
+   - Click `Commit Changes`
 
 ## Recommend Tutorials
 
